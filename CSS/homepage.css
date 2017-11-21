@@ -1,0 +1,189 @@
+body {
+background-color: #fceec7; /*light sand*/
+font-family: "Quicksand", ariel, sans-serif;
+}
+.parent {
+    /*border: 10px;
+    border-style: solid;
+    border-color: #fceec7;*/
+    background-color: #d0e4ef;
+    color: #886451;
+
+}
+
+.hero{
+
+    width: 90%;
+    margin: auto;
+    padding-top: 70px;
+
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 52%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #FCEEC7;
+}
+.contact-hero {
+  text-align: left;
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  font-size: 15px;
+  color: #FCEEC7;
+
+
+}
+button {
+background-color: #FCEEC7;
+font font-family: inherit;
+font-size: 40px;
+}
+
+.hero img{
+  width: 100%;
+  margin: auto;
+  max-width:100%;
+  height: auto;
+}
+.ArtShow {
+  width: 90%;
+  margin: auto;
+
+}
+.ArtShow p {
+  color: #886451; /* plum*/
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  padding-top: 120px;
+  margin-left: 40px;
+  margin-right: 40px;
+
+
+}
+
+.ArtShow img{
+  width: 100%;
+  /*margin: auto;
+  max-width:100%;
+  height: auto;*/
+
+}
+.Contact {
+  width: 90%;
+  margin: auto;
+  padding-top: 100px;
+
+}
+.Contact img {
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  max-width:100%;
+  height: auto;
+
+}
+.market{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding-top: 120px;
+
+}
+.MarketBags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.MarketBags p {
+
+  width: 60%;
+  text-align: left;
+  padding-top: 0;
+  margin-bottom: 50px;
+}
+.MarketBags img {
+ margin-top: 20px;
+
+
+}
+
+.market img{
+  /*width: 100%;
+  margin: auto;
+  max-width:100%;
+  height: auto;*/
+
+}
+section p {
+  color: #886451; /* plum*/
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+  padding-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+form {
+  text-align: center;
+  color: #886451; /* plum*/
+  padding-top: 20px;
+}
+
+input:focus {
+  outline: #acc1cc;
+}
+.button {
+  background-color: #acc1cc;
+  color: #886451;
+}
+body {
+  margin: 0px;
+}
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) {
+
+section {
+width: 100%;
+
+}
+
+ }
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+  .hero {
+    flex-wrap: wrap;
+  }
+
+
+ }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero {
+    flex-wrap: wrap;
+  }
+
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) { ... }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { ... }
