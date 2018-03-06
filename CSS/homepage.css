@@ -1,103 +1,124 @@
 body {
-background-color: #fceec7; /*light sand*/
-font-family: "Quicksand", ariel, sans-serif;
+  background-color: #fceec7;
+  /*light sand*/
+  font-family: "Quicksand", ariel, sans-serif;
+}
+section{
+  padding-bottom: 25px;
 }
 .parent {
-    /*border: 10px;
+  /*border: 10px;
     border-style: solid;
     border-color: #fceec7;*/
-    background-color: #d0e4ef;
-    color: #886451;
-
+  background-color: #d0e4ef;
+  color: #886451;
 }
 
-.hero{
-
-    width: 90%;
-    margin: auto;
-    padding-top: 70px;
-
+h4 {
+  color: #886451;
+  /* plum*/
+  font-size: 25px;
+  font-style: italic;
+  text-align: center;
+  padding-bottom: 2px;
+  margin-bottom: 2px;
+  margin-top: 30px;
 }
+
+.ArtShow h4 {
+  color: #886451;
+}
+
+a {
+  color: #0b466a;
+}
+
+a:hover {
+  color: #5988a5;
+}
+
+.hero {
+  width: 90%;
+  margin: auto;
+}
+
 .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 52%;
-    left: 30%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-    color: #FCEEC7;
-}
-.contact-hero {
-  text-align: left;
+  text-align: center;
   position: absolute;
-  top: 70%;
+  top: 52%;
   left: 30%;
   transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #886451;
+}
+
+.contact-hero {
+  text-align: center;
   font-size: 15px;
-  color: #FCEEC7;
-
-
-}
-button {
-background-color: #FCEEC7;
-font font-family: inherit;
-font-size: 40px;
+  color: #acc1cc;
 }
 
-.hero img{
+.hero img {
   width: 100%;
   margin: auto;
-  max-width:100%;
+  max-width: 100%;
   height: auto;
+  filter: opacity(70%);
 }
+
 .ArtShow {
   width: 90%;
   margin: auto;
-
-}
-.ArtShow p {
-  color: #886451; /* plum*/
-  font-size: 20px;
-  font-style: normal;
-  text-align: center;
-  padding-top: 120px;
-  margin-left: 40px;
-  margin-right: 40px;
-
-
+  margin-top: 120px;
 }
 
-.ArtShow img{
-  width: 100%;
+.ArtShow img {
+  width: 30%;
   /*margin: auto;
   max-width:100%;
   height: auto;*/
-
 }
+
 .Contact {
   width: 90%;
   margin: auto;
   padding-top: 100px;
-
 }
+
 .Contact img {
   align-items: center;
   width: 100%;
   margin: auto;
-  max-width:100%;
+  max-width: 100%;
   height: auto;
-
 }
-.market{
+
+.market {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   width: 90%;
   margin: auto;
-  padding-top: 120px;
-
+  padding-top: 50px;
 }
+
+.market img {
+  margin-bottom: 15px;
+}
+
+.maritimecities p {
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  text-decoration-color: #F2ECE7;
+}
+
+.gallery img {
+  width: 70%;
+}
+
 .MarketBags {
   display: flex;
   flex-wrap: wrap;
@@ -106,84 +127,257 @@ font-size: 40px;
   width: 90%;
   margin: auto;
 }
-.MarketBags p {
 
+.MarketBags p {
   width: 60%;
   text-align: left;
   padding-top: 0;
   margin-bottom: 50px;
 }
+
 .MarketBags img {
- margin-top: 20px;
-
-
+  margin-top: 20px;
 }
 
-.market img{
+.market img {
   /*width: 100%;
   margin: auto;
   max-width:100%;
   height: auto;*/
-
 }
-section p {
-  color: #886451; /* plum*/
+
+p {
+  color: #886451;
+  /* plum*/
   font-size: 20px;
   font-style: normal;
   text-align: center;
-  padding-top: 20px;
+  margin-top: 10px;
   margin-left: 40px;
   margin-right: 40px;
 }
+
 form {
   text-align: center;
-  color: #886451; /* plum*/
+  color: #886451;
+  /* plum*/
   padding-top: 20px;
 }
 
 input:focus {
   outline: #acc1cc;
 }
+
 .button {
   background-color: #acc1cc;
   color: #886451;
 }
+
+.contact-button {
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: #FCEEC7;
+  font font-family: inherit;
+  font-size: 30px;
+  border-style: outset;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.contact-button:hover {
+  background-color: #acc1cc;
+}
+
 body {
   margin: 0px;
 }
-/*// Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575px) {
+
+body {
+  background-color: #fceec7;
+  /*light sand*/
+  font-family: "Quicksand", ariel, sans-serif;
+}
+
+/*------nav bar start-----*/
+
+/*--------see nav.css---------*/
+
+/*------nav bar end-----*/
+
+/*------painting thumbnails start-----*/
+
+/*.paintings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.paintings a{
+  padding:20px
+}*/
+
+/* .placesilove {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.flowersandnature {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.theladies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .images {
+  display: flex;
+  align-items: center;
+} */
+
+div.flowersandnature, div.placesilove, div.maritimecities, div.theladies {
+  text-align: center;
+}
+
+p.scroll {
+  color: #fceec7;
+  /* lt sand*/
+  font-size: 15px;
+  font-style: italic;
+  text-align: center;
+}
+
+h6 {
+  color: #fceec7;
+  /* lt sand*/
+  font-size: 15px;
+  font-style: bold;
+  text-align: left;
+  margin-left: 30px;
+  padding: none;
+}
+
+.mrgn-tp-sm {
+  margin-top: 25px;
+}
+
+#show-flyer {
+  width: 50%;
+}
 
 section {
-width: 100%;
-
+  background-color: #acc1cc;
+  /*medium blue*/
+  margin: auto;
+  width: 90%;
+  align-items: center;
+  padding-top: 100px;
 }
 
- }
-
-
-
-/*// Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width: 767px) {
-  .hero {
-    flex-wrap: wrap;
-  }
-
-
- }
-
-/*// Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) and (max-width: 991px) {
-  .hero {
-    flex-wrap: wrap;
-  }
-
-
-
+.marketbags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
-/*// Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) and (max-width: 1199px) { ... }
+footer {
+  background-color: #d0e4ef;
+  width: 100%;
+  padding: 10px;
+  color: #886451;
+  text-align: center;
+}
 
-/*// Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { ... }
+.fb {
+  margin-right: 15px;
+}
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width: 575px) {
+  section {
+    width: 100%;
+  }
+  .contact-button {
+    margin: 10px auto;
+  }
+  .ArtShow img, #show-flyer {
+    width: 85%;
+  }
+  #mural{
+    width:100%;
+    margin-bottom: 15px;
+  }
+}
+  /*// Small devices (landscape phones, 576px and up)*/
+  @media (min-width: 576px) and (max-width: 767px) {
+    .hero {
+      flex-wrap: wrap;
+    }
+    .contact-button {
+      margin: 10px auto;
+    }
+    .ArtShow img {
+      width: 50%;
+    }
+    #mural{
+      width:100%;
+      margin-bottom: 15px;
+    }
+  }
+  /*// Medium devices (tablets, 768px and up)*/
+  @media (min-width: 768px) and (max-width: 991px) {
+    .hero {
+      flex-wrap: wrap;
+    }
+    .contact-button {
+      margin: 10px auto;
+    }
+    #mural{
+      width:85%;
+      margin-bottom: 15px;
+    }
+  }
+  /*// Large devices (desktops, 992px and up)*/
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .contact-hero {
+      text-align: left;
+      position: absolute;
+      top: 70%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      font-size: 15px;
+      color: #FCEEC7;
+    }
+    #mural{
+      width:75%;
+      margin-bottom: 15px;
+    }
+  }
+  /*// Extra large devices (large desktops, 1200px and up)*/
+  @media (min-width: 1200px) {
+    .contact-hero {
+      text-align: left;
+      position: absolute;
+      top: 70%;
+      left: 30%;
+      transform: translate(-50%, -50%);
+      font-size: 15px;
+      color: #FCEEC7;
+    }
+    #mural{
+      width:65%;
+      margin-bottom: 15px;
+    }
+  }
